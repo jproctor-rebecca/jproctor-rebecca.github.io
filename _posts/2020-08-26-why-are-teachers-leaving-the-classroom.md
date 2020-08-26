@@ -5,7 +5,7 @@ subtitle: Data Source&#58; Tennessee Educator Survey, 2015-19
 cover-img: /assets/img/TN_State_Seal.png
 thumbnail-img: /assets/img/US_Dept_Ed_Seal.png
 share-img: /assets/img/Top_10_positive__negative_responses_Moment.jpg
-tags: [books, test]
+
 ---
 
 ### **Why are teachers leaving the classroom?**
