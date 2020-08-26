@@ -10,7 +10,7 @@ share-img: /assets/img/Top_10_positive__negative_responses_Moment.jpg
 
 ### **Why are teachers leaving the classroom?**
 
-While sitting in an International Finance class, a student hears the professor state, “When you have an issue you believe may be systemic, analyze it on a local level before you take a look at the national or global level.”  Essentially the professor provides students with a valuable  lesson in sampling population statistics in order to gain valuable information about a whole population. 
+While sitting in an International Finance class, a student hears the professor state, “When you have an issue you believe may be systemic, analyze it on a local level before you take a look at the national or global level.”  Essentially the professor provides students with a valuable  lesson in sampling population statistics in order to gain information about a whole population. 
 
 
 ---
