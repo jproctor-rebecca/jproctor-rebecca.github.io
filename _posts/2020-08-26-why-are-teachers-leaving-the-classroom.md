@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Why are teachers leaving the classroom?
-subtitle: Data Source: Tennessee Educator Survey, 2015-19
+subtitle: Data Source, Tennessee Educator Survey, 2015-19
 cover-img: /assets/img/US_Dept_Ed_Seal.png
 thumbnail-img: /assets/img/TN_State_Seal.png
-share-img:/assets/img/Top_10_positive__negative_responses_Moment.jpg
+share-img: /assets/img/Top_10_positive__negative_responses_Moment.jpg
 tags: [books, test]
 ---
 
