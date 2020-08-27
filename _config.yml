@@ -86,12 +86,12 @@ excerpt_length: 50
 navbar-col: "#5F9EA0"
 navbar-text-col: "#E0FFFF"
 navbar-border-col: "#5F9EA0"
-page-col: "#5F9EA0"
-text-col: "#5F9EA0"
+page-col: "#FFFFFF"
+text-col: "#E0FFFF"
 link-col: "#5F9EA0"
 hover-col: "#5F9EA0"
 footer-col: "#5F9EA0"
-footer-text-col: "#5F9EA0"
+footer-text-col: "#E0FFFF"
 footer-link-col: "#5F9EA0"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
