@@ -11,7 +11,7 @@ author: R.J. Proctor
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - US Department of Education, Public Data: 'https://www2.ed.gov/rschstat/landing.jhtml?src=ft"
+    - US Department of Education, Public Data: "https://www2.ed.gov/rschstat/landing.jhtml?src=ft"
     - TN Department of Education, Public Data: "https://www.tn.gov/education/data/data-downloads.html"
       Author's home: "https://jproctor-rebecca.github.io"
 
