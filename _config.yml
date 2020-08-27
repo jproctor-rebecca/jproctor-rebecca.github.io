@@ -83,16 +83,16 @@ excerpt_length: 50
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#5F9EA0"
-navbar-text-col: "#E0FFFF"
-navbar-border-col: "#5F9EA0"
-page-col: "#FFFFFF"
-text-col: "#2F4F4F"
-link-col: "#2F4F4F"
-hover-col: "#5F9EA0"
-footer-col: "#5F9EA0"
-footer-text-col: "#E0FFFF"
-footer-link-col: "#5F9EA0"
+#navbar-col: "#5F9EA0"
+#navbar-text-col: "#E0FFFF"
+#navbar-border-col: "#5F9EA0"
+#page-col: "#FFFFFF"
+#text-col: "#2F4F4F"
+#link-col: "#2F4F4F"
+#hover-col: "#5F9EA0"
+#footer-col: "#5F9EA0"
+#footer-text-col: "#E0FFFF"
+#footer-link-col: "#5F9EA0"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -217,4 +217,5 @@ plugins:
 # 2fc73a3a967e97599c9763d05e564189
 
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-modernistgem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
