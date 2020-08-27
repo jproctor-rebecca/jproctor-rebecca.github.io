@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Experience, education, and my why
 ---
 
 My name is R.J. Proctor. 
