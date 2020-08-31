@@ -6,7 +6,10 @@ subtitle: Experience, education, and my why
 
 My name is R.J. Proctor.
 
-I am a licensed K-12, Tennessee Teacher. I have 3 years of experience teaching urban, low to severe poverty, ESL students with diverse personal and learning needs in Shelby County (Memphis, TN). I have taught High School Honors STEM, Standard Physics, SPED Physics, ACT Prep, and Computer Science. I have also taught Middle School Physical Science, Life Science, 8th Grade Combined Science and 7th Grade Combined Science. I have also served as Coach (girls High School softball) and Assistant Coach (girls High School volleyball).
+I am a licensed K-12, Tennessee Teacher. I have 3 years of experience teaching urban, low to severe poverty, ESL students with diverse personal and learning needs in Shelby County (Memphis, TN) in addition to my 15+ years of non-traditional pre-K - 12 and 7.5 years as in the corporate education area.  
+
+In the traditional K-12 classroom, I have taught High School Honors STEM, Standard Physics, SPED Physics, ACT Prep, and Computer Science. I have also taught Middle School Physical Science, Life Science, 8th Grade Combined Science and 7th Grade Combined Science. I have also served as Coach (girls High School softball) and Assistant Coach (girls High School volleyball).
+
 I volunteer with Memphis Botanical Gardens and Shelby Farms Park as an Environmental Educator and Docent (Certified Tennessee Naturalist).
 
 Educational Credentials:
