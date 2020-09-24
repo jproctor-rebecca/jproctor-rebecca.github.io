@@ -160,6 +160,17 @@ Numerics (histogram)
 ![](/assets/img/DistributionOfEducatorResponses_numerics.png)
 
 ---
+Categoricals (horizontal bar charts, showing top 20 frequency)
+	participation in survey by school district
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
+
+	participation in survey by school name
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
+
+	participation in survey by prompt
+![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
+
+---
 
 Target (horizontal bar chart)
 	classification frequency of schools that participate in survey
@@ -174,15 +185,14 @@ Target (horizontal bar chart)
 
 ---
 
-Categoricals (horizontal bar charts, showing top 20 frequency)
-	participation in survey by school district
-![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
+Combining the metrics visualualizations validation we conclude that our model can 
+use educator survey responses to accurately predict the type of school an educator
+teaches in.  Now we know that whether a teacher works in an urban, mixed urban, 
+mixed rural, or rural environment has a high correlation to whether or not an 
+enducator feels their working environment is positive or negative.
 
-	participation in survey by school name
-![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
-
-	participation in survey by prompt
-![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
+A closer analysis of the impact on teaching in each of these environments is 
+needed as we continued to discover why teachers are leaving the classroom.
 
 ---
 
@@ -194,6 +204,7 @@ Proctor, RJ.  Why are teachers leaving the classroom? | by Jeannine Proctor | Au
 Tennessee Advisory Commission on Intergovernmental Relations (TACIR), 2016.  Just How Rural or Urban are Tennessee's 95 Counties?
 
 Additional Resources:
+
 leakage: https://arxiv.org/abs/2001.10648
 
 pipeline: https://machinelearningmastery.com/automate-machine-learning-workflows-pipelines-python-scikit-learn/
