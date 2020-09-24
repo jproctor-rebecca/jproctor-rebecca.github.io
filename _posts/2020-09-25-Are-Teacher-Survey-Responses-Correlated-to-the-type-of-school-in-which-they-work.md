@@ -188,14 +188,20 @@ Categoricals (horizontal bar charts, showing top 20 frequency)
 
 Sources: 
 Albon, Chris.  Machine Learning Flashcards
+
 Proctor, RJ.  Why are teachers leaving the classroom? | by Jeannine Proctor | Aug, 2020
+
 Tennessee Advisory Commission on Intergovernmental Relations (TACIR), 2016.  Just How Rural or Urban are Tennessee's 95 Counties?
 
 Additional Resources:
 leakage: https://arxiv.org/abs/2001.10648
+
 pipeline: https://machinelearningmastery.com/automate-machine-learning-workflows-pipelines-python-scikit-learn/
+
 gradient descent:  https://towardsdatascience.com/implement-gradient-descent-in-python-9b93ed7108d1
+
 overfitting:  https://docs.aws.amazon.com/machine-learning/latest/dg/model-fit-underfitting-vs-overfitting.html
+
 information gain: https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb
 
 
