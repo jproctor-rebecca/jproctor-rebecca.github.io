@@ -32,7 +32,7 @@ By creating and implementing machine learning statistical and classification mod
 to determine if teacher responses are able predict the type of school in which a teacher is employed: urban, mixed urban, mixed rural, or rural.  
 This value is our predictive ‘target’.  
 
-![](/assets/img/Top_10_positive_responses_Moment.jpg) # machine lerning
+![](/assets/img/Classification_web.png) 
 
 ---
 ### The Process
@@ -41,7 +41,7 @@ This value is our predictive ‘target’.
 In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our classification model.  
 As we move into our model we will compare this value with accuracy and accuracy score.
 
-![](/assets/img/Top_10_positive_responses_Moment.jpg) # accuracy
+![](/assets/img/Accuracy_web.png) 
 
 ---
 
@@ -49,21 +49,25 @@ Feature importance and selection plays such an import role in our model because 
 decrease in impurity.  By calculating a features importance in relation to the target, we can select and pass to our model those features that will help our model 
 generalize to new data and predict with both accuracy and precision.  
 
-![](/assets/img/Top_10_positive_responses_Moment.jpg) # feature importance
+![](/assets/img/Feature_Importance_web.png) 
 
-
+---
 
 As proven through the Chi2  hypothesis testing, this dataset is highly relational.  We will continue to use Chi2 for feature importance selection, 
 to determine the exact nature of the relationship our numeric features have with our target variable and to determine how many features are optimal 
 to include in our classification model.  
 
+![](/assets/img/Chi-Squared_For_Feature_Selection_web.png) 
 
+---
 
 While Chi2  is used to evaluate relationships between numeric features and the target, mutual information classification is used to evaluate relationships 
 between categorical features and the target.  Since half of our dataset is numeric and half categorical.  We must use both processes to address leakage in 
 the entire dataset.  
 
+![](/assets/img/Avoid_Overfitting_web.png) 
 
+---
 
 Transformers in Python can be used to clean, reduce, expand or generate features. The fit method learns parameters from a training set and the transform method 
 applies transformations to unseen data.  
@@ -71,14 +75,21 @@ applies transformations to unseen data.
 During preprocessing, we use several of Sci-Kit Learn’s transformers to prepare features to pass through the models.  Label Encoder allows us to transform 
 non-numeric data found in the target to numeric values.  The Ordinal Encoder does the same thing for all other features.  
 
+![](/assets/img/Encoding_Ordinal_Categorical_Features_web.png) 
+
 Robust Scaler centers the data by removing the median and scaling the data along the interquartile range.  This standardizes the data and removes outliers.  
-Most datasets contain missing values, represented by NaNs or other placeholders.  They may even be encoded as blank values.  Machine learning models cannot 
-process missing values.  Any observations (rows) or features (columns) in a dataset that are made up of entirely missing values are dropped from the dataset.  
-However, it would be very costly (in information) to drop all observations and features that are simply incomplete.  Simple Imputer fills in the missing values 
-with the median.  
 
-Each of the describe transformers pre-process features in a different manner that allows data to pass through a pipeline and be fit to a machine learning model.  
+![](/assets/img/Interquartile_Range_web.png) 
 
+Most datasets contain missing values, represented by NaNs or other placeholders.  They may even be encoded as blank values.  Machine learning models cannot process missing values.  Any observations (rows) or features (columns) in a dataset that are made up of entirely missing values are dropped from the dataset.  However, it would be very costly (in information) to drop all observations and features that are simply incomplete.  Simple Imputer fills in the missing values with the median.
+
+![](/assets/img/Imputing_Missing_Values_web.png) 
+
+Each of the describe transformers pre-process features in a different manner that allows data to pass through a pipeline and be fit to a machine learning model. 
+
+![](/assets/img/Model_Selection_web.png) 
+
+---
     
 #### Algorithms 
 Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable. The nature of the target or dependent 
@@ -86,78 +97,94 @@ variable is dichotomous, which means there would be only two possible classes.  
 the large size of the dataset while claiming fewer computational penalties.  Because our dataset has much higher cardinality than two, we have marginal results with 
 this first level classifier.
 
+![](/assets/img/Logistic_Regression_Vs_Linear_Regression_web.png)
 
+---
 
 In order to get more from our dataset, we next use a classifier similar to ADABoost but works better with gradient descent.  After adjusting the hyperparameters of 
 the XGBoost Classifier, our model accuracy more than doubles.  
 
+![](/assets/img/Boosting_web.png)
 
-
+---
 
 To avoid overfitting,  we pass our data through the final algorithm, a random forest classifier.  The random forest classifier uses averaging to help improve accuracy 
 in a model and reduce overfitting.  Unlike XGCBoost, random forest is not very sensitive to hyperparameter manipulation.  However, we do set the hyperparameter “criterion” 
 to “entropy” for information gain.
 
+![](/assets/img/Random_Forest_web.png)
+
 #### Metrics
 Below are the reported metrics for our model throughout the development process:
-     Accuracy - value counts method for classification, baseline accuracy
+Accuracy - value counts method for classification, baseline accuracy
+
      Baseline Accuracy: 0.42803702543758915
+     
 Accuracy Score - logistic regression model (classification), predicted values accuracy
+
      Training Accuracy, predicted values, logistic regression:  0.4289069840275603
      Validation Accuracy, predicted values, logistic regression:  0.4303460514640639
+     
 Score -  XGCBoost (classification), pipeline accuracy
+
      Training Accuracy: XGboost 0.9307860945818979
-Validation Accuracy: XGboost 0.9244219426901196
-     Score - random forest (classification), pipeline accuracy
+     Validation Accuracy: XGboost 0.9244219426901196
+     
+Score - random forest (classification), pipeline accuracy
+
      Training Accuracy: random forest model 0.946775933465567
      Validation Accuracy: random forest model 0.8717052038206587
      Testing Accuracy: random forest model:  0.8795281344607997
+     
 Accuracy Score -  random forest (classification), predicted values accuracy
+
      Training Accuracy, predicted values, random forest:  0.946775933465567
      Validation Accuracy, predicted values, random forest:  0.8717052038206587
      Testing Accuracy, predicted values, random forest:  0.8795281344607997
+     
 Cross Validation Score (k=3), (validation method)
+
      train: [    0     2     3 ... 95787 95789 95790], test: [    1     4     6 ... 95784 95785 95788]
      train: [    0     1     4 ... 95788 95789 95790], test: [    2     3    11 ... 95781 95782 95787]
      train: [    1     2     3 ... 95785 95787 95788], test: [    0     5     7 ... 95786 95789 95790]
-#ROC AUC Score - one-verses-rest algorithm, (validation method)
-#     Training Accuracy, predicted values, ROC AUC:  
-#     Validation Accuracy, predicted values, ROC AUC: 
-#     Testing Accuracy, predicted values, ROC AUC:  
 
-The metric Testing Accuracy Score validates our model showing that it is able to use educator survey responses to predict the type of school an educator works in with 87.95% accuracy.
-#The metric ROC AUC Score validates our model showing that it is able to use educator survey responses to predict the type of school an educator works in with % accuracy.  
+The metric Accuracy Score shows our model results uses educator survey responses to predict 
+the type of school an educator works in with 87.95% accuracy.  
+The metric Cross Validation Score validates our model is able to use educator survey responses 
+to predict the type of school an educator works in with 95.78% accuracy.  
 
+---
     
 #### Vizualizations
 Numerics (histogram)
-![](/assets/img/Top_10_positive_resg)ponses_Moment.jpg)
+![](/assets/img/DistributionOfEducatorResponses_numerics.png)
+
+---
+
 Target (horizontal bar chart)
 	classification frequency of schools that participate in survey
+![](/assets/img/DistributionOfTargetCategories_categorical.png)
+
+	distribution of target true values
+![](/assets/img/DistributionOfTargetPredictedValuesCategories_categorical.png)
+
+	distribution of target predicted values
+![](/assets/img/DistributionOfTargetTrueValuesCategories_categorical.PNG)
+)
+
+---
+
 Categoricals (horizontal bar charts, showing top 20 frequency)
 	participation in survey by school district
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
+
 	participation in survey by school name
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
+
 	participation in survey by prompt
-	
-Logistic Regression-Non-Extreme Value Educator Responses (scatter plot)
-Logistic Regression-Extreme Value Educator Responses (scatter plot)
+![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
 
-
-Feature Selection-Ch2  (horizontal bar)
-Feature Selection-mutual information classification (horizontal bar)
-
-ROC AUC Curve (line plot)
-
-
-Confusion Matrix (heatmap)
-
-
-
-
-Shapley Values (shap plot)
-
-
-
+---
 
 Sources: 
 Albon, Chris.  Machine Learning Flashcards
