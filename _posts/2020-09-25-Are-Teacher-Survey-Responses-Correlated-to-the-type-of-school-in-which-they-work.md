@@ -20,13 +20,20 @@ we continue to address our analysis of  this issue by examining an environmental
 
 As discussed in our statistical analysis, teachers do not control their environment. 
 They have influence in their classrooms and the relationships they build with student families and peers. 
+
 ---
+
 The question we now address “Is the way a teacher feels about their work environment correlated to the type of school (or district) in which they work?”.  
 The type of school defines the community it serves as the classifier which determines public policy and state and federal funding for that school (and/or district).
+
 ---
+
 By creating and implementing machine learning statistical and classification models, we are able to analyze results from the annual Tennessee Educator Survey 
 to determine if teacher responses are able predict the type of school in which a teacher is employed: urban, mixed urban, mixed rural, or rural.  
 This value is our predictive ‘target’.  
+
+![](/assets/img/Top_10_positive_responses_Moment.jpg) # machine lerning
+
 ---
 ### The Process
 #### Preprocessing
@@ -34,10 +41,15 @@ This value is our predictive ‘target’.
 In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our classification model.  
 As we move into our model we will compare this value with accuracy and accuracy score.
 
+![](/assets/img/Top_10_positive_responses_Moment.jpg) # accuracy
+
+---
 
 Feature importance and selection plays such an import role in our model because we are using a tree model (Random Forest Classifier) that splits and maximizes the 
 decrease in impurity.  By calculating a features importance in relation to the target, we can select and pass to our model those features that will help our model 
 generalize to new data and predict with both accuracy and precision.  
+
+![](/assets/img/Top_10_positive_responses_Moment.jpg) # feature importance
 
 
 
@@ -119,7 +131,7 @@ The metric Testing Accuracy Score validates our model showing that it is able to
     
 #### Vizualizations
 Numerics (histogram)
-	
+![](/assets/img/Top_10_positive_resg)ponses_Moment.jpg)
 Target (horizontal bar chart)
 	classification frequency of schools that participate in survey
 Categoricals (horizontal bar charts, showing top 20 frequency)
