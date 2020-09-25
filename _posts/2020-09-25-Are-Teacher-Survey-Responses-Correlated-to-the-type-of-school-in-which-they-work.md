@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Are teacher survey response correlated with the type of school in which they work?
+title: Are teacher survey responses correlated with the type of school in which they work?
 subtitle: Data Source&#58; Tennessee Educator Survey, 2015-19
 cover-img: /assets/img/TN_State_Seal.png
 thumbnail-img: /assets/img/DistributionOfTargetCategories_categorical.png
@@ -8,7 +8,7 @@ share-img: /assets/img/DistributionOfTargetCategories_categorical.png
 
 ---
 
-### **Are teacher survey response correlated with the type of school in which they work?**
+### **Are teacher survey responses correlated with the type of school in which they work?**
 
 In continued pursuit to answer the question “Why are teachers changing schools frequently or leaving the classroom altogether?”, 
 the Tennessee Educator Survey data is examined for evidence of one of the environmental microsystems defined in the previous statistical analysis. 
@@ -181,7 +181,6 @@ Target (horizontal bar chart)
 
 	distribution of target predicted values
 ![](/assets/img/DistributionOfTargetTrueValuesCategories_categorical.PNG)
-)
 
 ---
 
