@@ -8,8 +8,6 @@ share-img: /assets/img/DistributionOfTargetCategories_categorical.png
 
 ---
 
-### **Are teacher survey responses correlated with the type of school in which they work?**
-
 In continued pursuit to answer the question “Why are teachers changing schools frequently or leaving the classroom altogether?”, 
 the Tennessee Educator Survey data is examined for evidence of one of the environmental microsystems defined in the previous 
 statistical analysis. 
@@ -51,8 +49,8 @@ This value is our predictive ‘target’.
 ![](/assets/img/DistributionOfTargetCategories_categorical.png)
 
 ---
-### The Process
-#### Preprocessing
+## The Process
+### Preprocessing
 
 In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our 
 classification model.  As we move into our model we will compare this value with accuracy and accuracy score.
@@ -107,7 +105,7 @@ Each of the describe transformers pre-process features in a different manner tha
 
 ---
     
-#### Algorithms 
+### Algorithms 
 Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable. The nature of the target or dependent 
 variable is dichotomous, which means there would be only two possible classes.  In our model, the hyperparameter “solver” is set to “saga” in order to accommodate 
 the large size of the dataset while claiming fewer computational penalties.  Because our dataset has much higher cardinality than two, we have marginal results with 
@@ -130,7 +128,7 @@ to “entropy” for information gain.
 
 ![](/assets/img/Random_Forest_web.png)
 
-#### Metrics
+### Metrics
 Below are the reported metrics for our model throughout the development process:
 
 For Baseline Accuracy we used the value counts method for classification. 
@@ -182,7 +180,7 @@ with an average of 95.78% accuracy.
 
 ---
     
-#### Summary Vizualizations
+### Summary Vizualizations
 
 ![](/assets/img/DistributionOfTargetPredictedValuesCategories_categorical.png)
 
