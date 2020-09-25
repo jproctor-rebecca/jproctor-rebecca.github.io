@@ -2,7 +2,7 @@
 layout: post
 title: Are teacher survey responses correlated with the type of school in which they work?
 subtitle: Data Source&#58; Tennessee Educator Survey, 2015-19
-cover-img: /assets/img/TN_rurality.png
+cover-img: /assets/img/TN_rurality_2.png
 thumbnail-img: /assets/img/DistributionOfTargetCategories_categorical.png
 share-img: /assets/img/DistributionOfTargetCategories_categorical.png
 
