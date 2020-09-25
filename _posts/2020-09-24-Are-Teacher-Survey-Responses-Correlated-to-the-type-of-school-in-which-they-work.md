@@ -21,7 +21,7 @@ about their work environment.  Those who feel positively barely outnumber those 
 
 ![](/assets/img/DistributionOfEducatorResponses_numerics.png)
  
-   *0 response represents a single unanswered question in an otherwise completed survey
+   *0 response represents a single unanswered question in an otherwise completed survey*
 
 While immediate steps can be taken to address educator’s top concerns statewide to make Tennessee schools more positive work environments 
 overall, we continue to address our analysis of  this issue by examining an environmental issue on a local level as a named step toward 
@@ -208,7 +208,7 @@ needed as we continued to discover why teachers are leaving the classroom.
 
 ---
 
-Sources: 
+*Sources:* 
 
 Albon, Chris.  Machine Learning Flashcards
 
@@ -216,9 +216,9 @@ Proctor, RJ.  Why are teachers leaving the classroom? | by Jeannine Proctor | Au
 
 Tennessee Advisory Commission on Intergovernmental Relations (TACIR), 2016.  Just How Rural or Urban are Tennessee's 95 Counties?
 
-  
+  **
 
-Additional Resources:
+*Additional Resources:*
 
 leakage: https://arxiv.org/abs/2001.10648
 
@@ -230,7 +230,7 @@ overfitting:  https://docs.aws.amazon.com/machine-learning/latest/dg/model-fit-u
 
 information gain: https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb
 
-   
+   **
 
 And don't forget...
 ...to keep Digging into the data!!
