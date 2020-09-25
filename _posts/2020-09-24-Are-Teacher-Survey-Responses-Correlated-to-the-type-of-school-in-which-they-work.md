@@ -116,42 +116,53 @@ to “entropy” for information gain.
 
 #### Metrics
 Below are the reported metrics for our model throughout the development process:
-Accuracy - value counts method for classification, baseline accuracy
+
+For Baseline Accuracy we used the value counts method for classification. 
 
      Baseline Accuracy: 0.42803702543758915
-     
-Accuracy Score - logistic regression model (classification), predicted values accuracy
+    
+We compare Baseline Accuracy with Accuracy Score for the Logistic Regression model 
+for classification.  The Accuracy Score tells us how well (how accurately) our model
+predicts the target values.
 
      Training Accuracy, predicted values, logistic regression:  0.4289069840275603
      Validation Accuracy, predicted values, logistic regression:  0.4303460514640639
      
-Score -  XGCBoost (classification), pipeline accuracy
+The low training and validation accuracy scores tells us that the Logistic Regression 
+algorithm is not the best model for a multiple classification problem.  Even so, this 
+is a good place to start.  Our model can only become more accurate from here.  We add
+the XGCBoost algorithm to our model.
+     
+Next we compare our previous Accuracy Score with the Score for the XGCBoost algorithm 
+for classification.  The Score tells us how well (how accurately) our model predicts 
+the target values.
 
      Training Accuracy: XGboost 0.9307860945818979
      Validation Accuracy: XGboost 0.9244219426901196
      
-Score - random forest (classification), pipeline accuracy
+The XGCBoost algorith more than doubled our models predictive accuracy.  However, in 
+order to avoid overfitting the model, we continue to build our model by adding the 
+Random Forest Classifier algoritm to our Model.
+     
+Next we compare our XGCBoost Score with the Accuracy Score for the Random Random Forest 
+Classifier algorithm.  The Accuracy Score tells us how well (how accurately) our model 
+predicts the target values.
 
      Training Accuracy: random forest model 0.946775933465567
      Validation Accuracy: random forest model 0.8717052038206587
      Testing Accuracy: random forest model:  0.8795281344607997
      
-Accuracy Score -  random forest (classification), predicted values accuracy
-
-     Training Accuracy, predicted values, random forest:  0.946775933465567
-     Validation Accuracy, predicted values, random forest:  0.8717052038206587
-     Testing Accuracy, predicted values, random forest:  0.8795281344607997
-     
-Cross Validation Score (k=3), (validation method)
+The Accuracy Scores for the Random Forest Classifier seem to be well generalized to the 
+data on the surface. To validate the acutal accuracy of our models ability to generalize
+to new data, we will use the K-Fold Cross-Validation method where k=3.
 
      train: [    0     2     3 ... 95787 95789 95790], test: [    1     4     6 ... 95784 95785 95788]
      train: [    0     1     4 ... 95788 95789 95790], test: [    2     3    11 ... 95781 95782 95787]
      train: [    1     2     3 ... 95785 95787 95788], test: [    0     5     7 ... 95786 95789 95790]
 
-The metric Accuracy Score shows our model results uses educator survey responses to predict 
-the type of school an educator works in with 87.95% accuracy.  
-The metric Cross Validation Score validates our model is able to use educator survey responses 
-to predict the type of school an educator works in with 95.78% accuracy.  
+The metric Cross Validation Score validates our model is able to use educator survey 
+responses to generalize to new data and predict the type of school an educator works in 
+with an average of 95.78% accuracy.  
 
 ---
     
