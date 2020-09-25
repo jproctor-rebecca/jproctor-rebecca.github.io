@@ -11,10 +11,11 @@ share-img: /assets/img/DistributionOfTargetCategories_categorical.png
 ### **Are teacher survey responses correlated with the type of school in which they work?**
 
 In continued pursuit to answer the question “Why are teachers changing schools frequently or leaving the classroom altogether?”, 
-the Tennessee Educator Survey data is examined for evidence of one of the environmental microsystems defined in the previous statistical analysis. 
+the Tennessee Educator Survey data is examined for evidence of one of the environmental microsystems defined in the previous 
+statistical analysis. 
 
-The findings of the statistical analysis show that teachers across the state of Tennessee are closely divided in their feelings about their work environment.  
-Those who feel positively barely outnumber those who feel negatively on any given metric.  
+The findings of the statistical analysis show that teachers across the state of Tennessee are closely divided in their feelings 
+about their work environment.  Those who feel positively barely outnumber those who feel negatively on any given metric.  
 
 ![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
 
@@ -22,18 +23,22 @@ Those who feel positively barely outnumber those who feel negatively on any give
  
    *0 response represents a single unanswered question in an otherwise completed survey
 
-While immediate steps can be taken to address educator’s top concerns statewide to make Tennessee schools more positive work environments overall, 
-we continue to address our analysis of  this issue by examining an environmental issue on a local level as a named step toward building a national model.
+While immediate steps can be taken to address educator’s top concerns statewide to make Tennessee schools more positive work environments 
+overall, we continue to address our analysis of  this issue by examining an environmental issue on a local level as a named step toward 
+building a national model.
 
-As discussed in our statistical analysis, teachers do not control their environment. 
-They have influence in their classrooms and the relationships they build with student families and peers. 
+As discussed in our statistical analysis, teachers do not control their environment. They have influence in their classrooms and the 
+relationships they build with student families and peers. 
 
 ---
 
-The question we now address “Is the way a teacher feels about their work environment correlated to the type of school (or district) in which they work?”.  
-The type of school defines the community it serves as the classifier which determines public policy and state and federal funding for that school (and/or district).
+The question we now address “Is the way a teacher feels about their work environment correlated to the type of school (or district) in 
+which they work?”.  
 
 ![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
+
+The type of school defines the community it serves as the classifier which determines public policy and state and 
+federal funding for that school (and/or district).
  
 ![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
 
@@ -49,8 +54,6 @@ This value is our predictive ‘target’.
 ### The Process
 #### Preprocessing
 
-
-
 In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our 
 classification model.  As we move into our model we will compare this value with accuracy and accuracy score.
 
@@ -58,9 +61,9 @@ classification model.  As we move into our model we will compare this value with
 
 ---
 
-Feature importance and selection plays such an import role in our model because we are using a tree model (Random Forest Classifier) that splits and maximizes the 
-decrease in impurity.  By calculating a features importance in relation to the target, we can select and pass to our model those features that will help our model 
-generalize to new data and predict with both accuracy and precision.  
+Feature importance and selection plays such an import role in our model because we are using a tree model (Random Forest Classifier) that 
+splits and maximizes the decrease in impurity.  By calculating a features importance in relation to the target, we can select and pass to 
+our model those features that will help our model generalize to new data and predict with both accuracy and precision.  
 
 ![](/assets/img/Feature_Importance_web.png) 
 
@@ -192,6 +195,7 @@ of the the distribution of the true values and then the predicted values.  We se
 distributions are extremely close.  This is in alignment with our statistical results.
 
 ---
+## Conclusion
 
 Combining the metrics visualualizations validation we conclude that our model can 
 use educator survey responses to accurately predict the type of school an educator
