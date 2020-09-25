@@ -19,6 +19,7 @@ Those who feel positively barely outnumber those who feel negatively on any give
 ![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
 
 ![](/assets/img/DistributionOfEducatorResponses_numerics.png)
+ 
    *0 response represents a single unanswered question in an otherwise completed survey
 
 While immediate steps can be taken to address educator’s top concerns statewide to make Tennessee schools more positive work environments overall, 
@@ -33,7 +34,7 @@ The question we now address “Is the way a teacher feels about their work envir
 The type of school defines the community it serves as the classifier which determines public policy and state and federal funding for that school (and/or district).
 
 ![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
-
+ 
 ![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
 
 ---
@@ -50,8 +51,8 @@ This value is our predictive ‘target’.
 
 
 
-In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our classification model.  
-As we move into our model we will compare this value with accuracy and accuracy score.
+In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our 
+classification model.  As we move into our model we will compare this value with accuracy and accuracy score.
 
 ![](/assets/img/Accuracy_web.png) 
 
