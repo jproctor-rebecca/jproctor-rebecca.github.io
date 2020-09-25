@@ -15,6 +15,12 @@ the Tennessee Educator Survey data is examined for evidence of one of the enviro
 
 The findings of the statistical analysis show that teachers across the state of Tennessee are closely divided in their feelings about their work environment.  
 Those who feel positively barely outnumber those who feel negatively on any given metric.  
+
+![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
+
+![](/assets/img/DistributionOfEducatorResponses_numerics.png)
+   *0 response represents a single unanswered question in an otherwise completed survey
+
 While immediate steps can be taken to address educator’s top concerns statewide to make Tennessee schools more positive work environments overall, 
 we continue to address our analysis of  this issue by examining an environmental issue on a local level as a named step toward building a national model.
 
@@ -26,17 +32,23 @@ They have influence in their classrooms and the relationships they build with st
 The question we now address “Is the way a teacher feels about their work environment correlated to the type of school (or district) in which they work?”.  
 The type of school defines the community it serves as the classifier which determines public policy and state and federal funding for that school (and/or district).
 
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
+
+![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
+
 ---
 
 By creating and implementing machine learning statistical and classification models, we are able to analyze results from the annual Tennessee Educator Survey 
 to determine if teacher responses are able predict the type of school in which a teacher is employed: urban, mixed urban, mixed rural, or rural.  
 This value is our predictive ‘target’.  
 
-![](/assets/img/Classification_web.png) 
+![](/assets/img/DistributionOfTargetCategories_categorical.png)
 
 ---
 ### The Process
 #### Preprocessing
+
+
 
 In order to evaluate categorical features, which our target value is, we must use the value counts method for baseline accuracy of our classification model.  
 As we move into our model we will compare this value with accuracy and accuracy score.
@@ -166,32 +178,17 @@ with an average of 95.78% accuracy.
 
 ---
     
-#### Vizualizations
-Numerics (histogram)
-![](/assets/img/DistributionOfEducatorResponses_numerics.png)
+#### Summary Vizualizations
 
----
-Categoricals (horizontal bar charts, showing top 20 frequency)
-	participation in survey by school district
-![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchoolDistrict_categorical.png)
-
-	participation in survey by school name
-![](/assets/img/DistributionOfParticipationInEducatorSurveyBySchool_categorical.png)
-
-	participation in survey by prompt
-![](/assets/img/DistributionOfEducatorResponsesByPromptTop20_categorical.png)
-
----
-
-Target (horizontal bar chart)
-	classification frequency of schools that participate in survey
-![](/assets/img/DistributionOfTargetCategories_categorical.png)
-
-	distribution of target true values
 ![](/assets/img/DistributionOfTargetPredictedValuesCategories_categorical.png)
 
-	distribution of target predicted values
+ 
+
 ![](/assets/img/DistributionOfTargetTrueValuesCategories_categorical.PNG)
+
+As a final check, call it a common sense test or a gut check, we visual map the results 
+of the the distribution of the true values and then the predicted values.  We see the 
+distributions are extremely close.  This is in alignment with our statistical results.
 
 ---
 
@@ -214,6 +211,8 @@ Proctor, RJ.  Why are teachers leaving the classroom? | by Jeannine Proctor | Au
 
 Tennessee Advisory Commission on Intergovernmental Relations (TACIR), 2016.  Just How Rural or Urban are Tennessee's 95 Counties?
 
+  
+
 Additional Resources:
 
 leakage: https://arxiv.org/abs/2001.10648
@@ -226,6 +225,7 @@ overfitting:  https://docs.aws.amazon.com/machine-learning/latest/dg/model-fit-u
 
 information gain: https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb
 
+   
 
 And don't forget...
 ...to keep Digging into the data!!
