@@ -17,4 +17,4 @@ You will be able to manage multiple properties at different locations and be abl
 ---
 
 **Click on the following link to try your hand at the predictive model...**
-**[What Price Is Right?](https://airbnb-rightprice.herokuapp.com/insights)**
+**[What Price Is Right?](https://airbnb-rightprice.herokuapp.com/)**
