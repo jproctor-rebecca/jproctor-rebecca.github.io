@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AirBnB: What Price Is Right
+title: AirBnB - What Price Is Right?
 subtitle: Data Source&#58; Kaggle AirBnB listings in major cities
 cover-img: /assets/img/heroku_deployment.png
 thumbnail-img: /assets/img/heroku_deployment.png
@@ -15,3 +15,6 @@ Using historical booking data from AirBnB, this AirBnB Optimal Price generator w
 You will be able to manage multiple properties at different locations and be able to make adjustments to your expectations for booking, as well as what you should be charging at your own AirBnB property.
 
 ---
+
+**Click on the following link to try your hand at the predictive model...**
+**[What Price Is Right?](https://airbnb-rightprice.herokuapp.com/insights)**
