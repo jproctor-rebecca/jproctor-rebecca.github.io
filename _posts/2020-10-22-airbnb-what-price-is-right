@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AirBnB: What Price Is Right?
-subtitle: Data Source&#58; [Kaggle AirBnB listings](https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml?select=test.csv)
+subtitle: Data Source&#58; Kaggle AirBnB listings in major cities
 cover-img: /assets/img/heroku_deployment.png
 thumbnail-img: /assets/img/heroku_deployment.png
 share-img: /assets/img/heroku_deployment.png
@@ -23,4 +23,4 @@ Use the link below to move to the predicor application developed by our software
 
 ---
 
-
+[Kaggle AirBnB listings](https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml?select=test.csv)
