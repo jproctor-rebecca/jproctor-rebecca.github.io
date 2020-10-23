@@ -2,7 +2,7 @@
 layout: post
 title: AirBnB - What Price Is Right?
 subtitle: Data Source&#58; Kaggle AirBnB listings in major cities
-cover-img: /assets/img/heroku_deployment.png
+cover-img: /assets/img/AirBnB_2.png
 thumbnail-img: /assets/img/heroku_deployment.png
 share-img: /assets/img/heroku_deployment.jpg
 
