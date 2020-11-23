@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Music Playlist Reccommender - Spot the Music!
+title: Music Playlist Recommender - Spot the Music!
 subtitle: Data Source&#58; Spotify API
 cover-img: /assets/img/spotify2.jpg
 thumbnail-img: /assets/img/Spot_the_Music.png
