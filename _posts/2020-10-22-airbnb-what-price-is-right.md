@@ -10,9 +10,9 @@ share-img: /assets/img/heroku_deployment.jpg
 
 ### **AirBnb: What Price Is Right?**
 
-Using historical booking data from AirBnB, this AirBnB Optimal Price generator will allow a you to predict the trends for optimal pricing for a property based on variables such as location, time of year and other considerations.
+Airbnb pricing is one of the key components to ensuring that a rental property is fulfilling its potential. However, when it comes to pricing optimization, the truth is that it requires a lot of forethought and consideration.
 
-You will be able to manage multiple properties at different locations and be able to make adjustments to your expectations for booking, as well as what you should be charging at your own AirBnB property.
+Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to leverage the power of machine learning to predict the trends for optimal pricing for their properties based on variables such as location, time of year, cleaning fee, and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.
 
 ---
 
