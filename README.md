@@ -8,6 +8,8 @@ Colab link:  https://github.com/jproctor-rebecca/lambdaprojects/blob/master/WhyA
 
 Source data (zip file): https://github.com/jproctor-rebecca/lambdaprojects/blob/master/Teacher_Core_School_Consolidated_TN.zip
 
+**Data Analysis**
+
 **National media reports of teachers leaving the classroom in mass. The question is why? What are the key issues that make teachers feel it is impossible to remain in the classroom? In a sampling of public data, we will look at this issue and draw comparisons to the national issue.**
 
 Hosting sites associated with this reserch:
@@ -28,6 +30,8 @@ Project/Post 2
 Juypter notebook link:  https://github.com/jproctor-rebecca/lambdaprojects/blob/master/Are_Teacher_Responses_Correlated_to_the%20_Type_of_School_In_Which_They_Work_RJProctor.ipynb
 
 Source data:  https://github.com/jproctor-rebecca/lambdaprojects/blob/master/teach_geo_merged.csv
+
+**Data Analysis**
 
 **In the continued exploration of the question of why teachers are leaving classrooms, we examine using machine learning models whether one environmental factor is highly coorelated to educator feelings about their work environments.**  
 
@@ -57,7 +61,11 @@ Trello link:
 
 https://trello.com/b/qPFcV5eL/ft-bw-ds-airbnb
 
-**Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.**
+**The Business Problem**
+
+**Airbnb pricing is one of the key components to ensuring that a rental property is fulfilling its potential. However, when it comes to pricing optimization, the truth is that it requires a lot of forethought and consideration.** 
+
+**Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to leverage the power of machine learning to predict the trends for optimal pricing for their properties based on variables such as location, time of year, cleaning fee, and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.**
 
 Hosting sites associated with this research:
 
