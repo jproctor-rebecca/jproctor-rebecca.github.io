@@ -8,7 +8,7 @@ Colab link:  https://github.com/jproctor-rebecca/lambdaprojects/blob/master/WhyA
 
 Source data (zip file): https://github.com/jproctor-rebecca/lambdaprojects/blob/master/Teacher_Core_School_Consolidated_TN.zip
 
-National media reports of teachers leaving the classroom in mass. The question is why? What are the key issues that make teachers feel it is impossible to remain in the classroom? In a sampling of public data, we will look at this issue and draw comparisons to the national issue.
+**National media reports of teachers leaving the classroom in mass. The question is why? What are the key issues that make teachers feel it is impossible to remain in the classroom? In a sampling of public data, we will look at this issue and draw comparisons to the national issue.**
 
 Hosting sites associated with this reserch:
 
@@ -29,7 +29,7 @@ Juypter notebook link:  https://github.com/jproctor-rebecca/lambdaprojects/blob/
 
 Source data:  https://github.com/jproctor-rebecca/lambdaprojects/blob/master/teach_geo_merged.csv
 
-In the continued exploration of the question of why teachers are leaving classrooms, we examine using machine learning models whether one environmental factor is highly coorelated to educator feelings about their work environments.  
+**In the continued exploration of the question of why teachers are leaving classrooms, we examine using machine learning models whether one environmental factor is highly coorelated to educator feelings about their work environments.**  
 
 Hosting sites associated with this reserch:
 
@@ -57,7 +57,7 @@ Trello link:
 
 https://trello.com/b/qPFcV5eL/ft-bw-ds-airbnb
 
-Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.
+**Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.**
 
 Hosting sites associated with this research:
 
