@@ -214,7 +214,9 @@ Alexander Barriga, Taylor Curran, Regina Dircio, Robert Guiffre, Thomas Phillips
 
 Collaborative Project/Post 5
 
-# Human Rights First - Asylum
+# Collaborating as a Data Scientist on a Cross-functional Production Team
+
+Human Rights First - Asylum
 
 The goal is an application to assist immigration attorneys and refugee representatives in advocating for cilents in asylum cases by identifying patterns in judicial decisions and predicting possible outcomes based on those patterns.
 
