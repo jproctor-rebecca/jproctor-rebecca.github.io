@@ -19,6 +19,7 @@ policymakers to uphold HRF's recommendations.
 ---
 ![HRF Nonpartisan Campaigns](/assets/img/HRF_campaigns.png)
 HRF Nonpartisan Campaigns
+
 ---
 
 In advocacy of asylum seekers, HRF believes that holding the US government
@@ -62,6 +63,7 @@ At the beginning of the project, there are more questions than answers.
 ---
 ![Our Team](/assets/img/HRF_cross_functional_product_dev_team_rjproctor.png)
 Our Team
+
 ---
 
 In the cross-functional product development team environment, the planning 
@@ -101,6 +103,7 @@ chunks...momentum begins.
 
 ---
 [Our Week One Workflow Document](https://drive.google.com/file/d/1GD1ncDveFnJ6actKci0WRGcbRgcv7e8i/view?usp=sharing)
+
 ---
 
 As I delve deeper into my specific tasks, create visualizations to represent 
@@ -143,6 +146,7 @@ jump over to the scraper and focus on keyword extraction.
 
 ---
 [Our Week Two Workflow Document - A Clearer Path Forward](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cca93937-18f1-4689-b3c3-177edebb6877)
+
 ---
 
 Because of my team’s willingness to ask an honest, thoughtful question, 
@@ -171,6 +175,7 @@ identify similarities between documents as patterns.
 ---
 ![Model Methodolgy](/assets/img/HRF_predictive_descriptive_analysis_model_methodology_RJProctor.png)
 Model Methodology
+
 ---
 
 One of the considerations of sourcing data from users of a website is 
@@ -196,6 +201,7 @@ list ranked the frequency they appear in all documents.
 ---
 ![Function Using NLP to Create Tokens and Pre-Process Text Data](/assets/img/DS_preprocessing_function.png)
 Function Using NLP to Create Tokens and Pre-Process Text Data
+
 ---
 
 Term Frequency – Inverse Document Frequency (TF-IDF) feature weighting is 
@@ -235,6 +241,7 @@ drastically reducing the number of documents we have to gain insights.
 ---
 ![Presenting Stakeholder with the State of the Corpus](/assets/img/HRF_State_of_Data_Dashboard.gif)
 Presenting Stakeholder with the State of the Corpus
+
 ---
 
 Moving forward with this project, I suggest the next team continue to 
@@ -252,10 +259,12 @@ A key aspect missing from our entire planning structure is the Alien Number.  Wi
 
 ---
 Reflecting on the journey…
+
 ---
 
 Through interactions with stakeholders, I realize that stakeholder expectations can expand rapidly, sometimes even beyond our opportunity as engineers to understand the business problem and find solutions.  While asking questions to clarify the business problem, our conversations would sometimes move well beyond our current project’s scope.  Learning how to navigate discussions with all stakeholders to garner the information for my Data Science team needed to complete their production tasks while listening for explicit and implied asks directly from stakeholders, then asking for clarification on the implied asks, is the essential skill I acquired during this experience.  Practicing this newly acquired skill is my priority.  
 
 ---
 [GitHub Repo](https://github.com/LL-rjp/human-rights-first-asylum-ds-b) | [Trello Board]( https://trello.com/b/NHb1IkeX/labs30asylumteamb)
+
 ---
