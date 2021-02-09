@@ -250,3 +250,5 @@ can expand rapidly, sometimes even beyond our opportunity as engineers to
 understand the business problem and find solutions.  While asking questions 
 to clarify the business problem, our conversations would sometimes move 
 well beyond our current project’s scope.  Learning how to navigate discussions with all stakeholders to garner the information for my Data Science team needed to complete their production tasks while listening for explicit and implied asks directly from stakeholders, then asking for clarification on the implied asks, is the essential skill I acquired during this experience.  Practicing this newly acquired skill is my priority.  
+
+[GitHub Repo](https://github.com/LL-rjp/human-rights-first-asylum-ds-b) | [Trello Board]( https://trello.com/b/NHb1IkeX/labs30asylumteamb)
