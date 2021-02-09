@@ -242,7 +242,7 @@ court systems.
 
 A key aspect missing from our entire planning structure is the Alien Number.  With the AN found on every immigration document, all cases relating to a single asylum seeker can be grouped.  Grouping allows insights gained from tracking an individual’s progress through the entire immigration court system and comparing their experience to outcomes of those from similar circumstances.  However, the AN is a confidential number similar to the social security number.  The AN is treated with the same security precautions (shown only under Administrator user privileges and in hashed format under other users).
 
-<iframe src="https://giphy.com/embed/3o7TKvVTlNBANWtOO4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/love-animation-design-3o7TKvVTlNBANWtOO4">via GIPHY</a></p>
+
 Reflecting on the journey…
 
 Through interactions with stakeholders, I realize that stakeholder expectations 
