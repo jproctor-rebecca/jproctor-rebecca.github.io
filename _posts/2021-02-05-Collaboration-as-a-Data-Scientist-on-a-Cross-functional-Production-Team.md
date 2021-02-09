@@ -16,8 +16,10 @@ ten-part plan entitled [Walking the Talk: 2021 Blueprints for a
 Human Rights-Centered U.S, Foreign Policy](https://drive.google.com/file/d/1j1OAxPhOm6ma6o4Y5vCLnuhMwd33sq6z/view?usp=sharing), which provides blueprints for 
 policymakers to uphold HRF's recommendations.
 
+---
 ![HRF Nonpartisan Campaigns](/assets/img/HRF_campaigns.png)
 HRF Nonpartisan Campaigns
+---
 
 In advocacy of asylum seekers, HRF believes that holding the US government
 and its judiciary, in particular, accountable to both justice and reform 
@@ -57,8 +59,10 @@ an entire judicial body.
 
 At the beginning of the project, there are more questions than answers.
 
+---
 ![Our Team](/assets/img/HRF_cross_functional_product_dev_team_rjproctor.png)
 Our Team
+---
 
 In the cross-functional product development team environment, the planning 
 sprint is the most challenging and consequential in the agile domain. 
@@ -95,7 +99,9 @@ team breaks the business problem down into engineering tasks; individuals
 claim ownership for each, and we attack the situation in these manageable 
 chunks...momentum begins.
 
+---
 [Our Week One Workflow Document](https://drive.google.com/file/d/1GD1ncDveFnJ6actKci0WRGcbRgcv7e8i/view?usp=sharing)
+---
 
 As I delve deeper into my specific tasks, create visualizations to represent 
 the prediction and patterns in the underlying data, I have a conversation 
@@ -109,9 +115,7 @@ As a team, we decide to take some time to thoroughly examine each section
 of the [repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) (bank of code) associated with our tasks. We find that 
 our roadmap to MVP does not align with the repository’s  (repo) current 
 state.  We then revisit our workflow planning documents and strategize how 
-to accomplish this feat within our project’s time constraints (four weeks - 
-we are in week two, not having been given access to the repo and database 
-until now).
+to accomplish this feat within our project’s time constraints (four weeks - we are in week two, not having been given access to the repo and database until now).
 
 During our one discussion of our discoveries, one of my teammates, Tomas 
 Phillips, asks a thoughtful question regarding the last team, "What did 
@@ -119,18 +123,14 @@ they do all four weeks?" His is not a question of disrespect or belittlement;
 it is genuine concern regarding a lack of understanding of what blockers 
 they faced that we aren't seeing.  My first response is simplistic; we 
 don't have four weeks to work on writing code. The first week is planning, 
-and the last week we can bug fix and document, leaving two weeks to explore, 
-build, and revise code.
+and the last week we can bug fix and document, leaving two weeks to explore, build, and revise code.
 
 Wanting to provide Tomas and the rest of the team with a more in-depth 
 answer to his question, I look at the last team's workflow.  I see 
 reassurance that we can accomplish the repo’s realignment to the roadmap 
 with a slight adjustment to our workflow. Because the previous team works 
 simultaneously on the same engineering task, they have slow overall 
-progress, never meeting MVP.  At the beginning of our planning discussions, 
-I propose our team works asynchronously, supporting one another. After 
-seeing the challenge the previous team faces in producing viable results, 
-I am reaffirmed in this choice by our team.
+progress, never meeting MVP.  At the beginning of our planning discussions, I propose our team works asynchronously, supporting one another. After seeing the challenge the previous team faces in producing viable results, I am reaffirmed in this choice by our team.
 
 Through this exercise, I also recognize the consequence of having a non 
 or partially functioning scraper - no data for the database, model 
@@ -141,7 +141,9 @@ in the previous meeting to own the model as part of our alignment workflow,
 demonstrates his flexibility and commitment to the team by volunteering to 
 jump over to the scraper and focus on keyword extraction.
 
+---
 [Our Week Two Workflow Document - A Clearer Path Forward](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cca93937-18f1-4689-b3c3-177edebb6877)
+---
 
 Because of my team’s willingness to ask an honest, thoughtful question, 
 dedication to digging deeper and removing blockers, and responsiveness 
@@ -166,8 +168,10 @@ involves preprocessing the data, weighting both documents and terms, then
 using a classification algorithm combined with a clustering algorithm to 
 identify similarities between documents as patterns.
 
+---
 ![Model Methodolgy](/assets/img/HRF_predictive_descriptive_analysis_model_methodology_RJProctor.png)
 Model Methodology
+---
 
 One of the considerations of sourcing data from users of a website is 
 duplicate records.  From a Data Science perspective, duplicate records 
@@ -189,8 +193,10 @@ Use of a Natural Language Processing (NLP) pre-trained model, Spacy, to
 the data allows me to search through the text to create a unique keywords 
 list ranked the frequency they appear in all documents.
 
+---
 ![Function Using NLP to Create Tokens and Pre-Process Text Data](/assets/img/DS_preprocessing_function.png)
 Function Using NLP to Create Tokens and Pre-Process Text Data
+---
 
 Term Frequency – Inverse Document Frequency (TF-IDF) feature weighting is 
 a robust and straightforward method.  The Term Frequency (TF) method weights
@@ -226,8 +232,10 @@ by previous teams are not asylum cases during the production process.  We
 add a filter to the scraper, so these cases do not enter or corpus, 
 drastically reducing the number of documents we have to gain insights.  
 
+---
 ![Presenting Stakeholder with the State of the Corpus](/assets/img/HRF_State_of_Data_Dashboard.gif)
 Presenting Stakeholder with the State of the Corpus
+---
 
 Moving forward with this project, I suggest the next team continue to 
 explore this model, possibly seeing if you can achieve greater efficiencies 
@@ -242,13 +250,12 @@ court systems.
 
 A key aspect missing from our entire planning structure is the Alien Number.  With the AN found on every immigration document, all cases relating to a single asylum seeker can be grouped.  Grouping allows insights gained from tracking an individual’s progress through the entire immigration court system and comparing their experience to outcomes of those from similar circumstances.  However, the AN is a confidential number similar to the social security number.  The AN is treated with the same security precautions (shown only under Administrator user privileges and in hashed format under other users).
 
-
+---
 Reflecting on the journey…
+---
 
-Through interactions with stakeholders, I realize that stakeholder expectations 
-can expand rapidly, sometimes even beyond our opportunity as engineers to 
-understand the business problem and find solutions.  While asking questions 
-to clarify the business problem, our conversations would sometimes move 
-well beyond our current project’s scope.  Learning how to navigate discussions with all stakeholders to garner the information for my Data Science team needed to complete their production tasks while listening for explicit and implied asks directly from stakeholders, then asking for clarification on the implied asks, is the essential skill I acquired during this experience.  Practicing this newly acquired skill is my priority.  
+Through interactions with stakeholders, I realize that stakeholder expectations can expand rapidly, sometimes even beyond our opportunity as engineers to understand the business problem and find solutions.  While asking questions to clarify the business problem, our conversations would sometimes move well beyond our current project’s scope.  Learning how to navigate discussions with all stakeholders to garner the information for my Data Science team needed to complete their production tasks while listening for explicit and implied asks directly from stakeholders, then asking for clarification on the implied asks, is the essential skill I acquired during this experience.  Practicing this newly acquired skill is my priority.  
 
+---
 [GitHub Repo](https://github.com/LL-rjp/human-rights-first-asylum-ds-b) | [Trello Board]( https://trello.com/b/NHb1IkeX/labs30asylumteamb)
+---
