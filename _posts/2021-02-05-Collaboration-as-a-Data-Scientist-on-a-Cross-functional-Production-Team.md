@@ -2,7 +2,7 @@
 layout: post
 title: Collaboration as a Data Scientist on a Cross-functional Production Team
 subtitle: Human Rights First
-cover-img: /assets/img/HRF_logo.png
+cover-img: /assets/img/HRF_image_wdev_5.png
 thumbnail-img: /assets/img/HRF_logo_sm.png
 share-img: /assets/img/HRF_logo.png
 
@@ -16,7 +16,7 @@ ten-part plan entitled [Walking the Talk: 2021 Blueprints for a
 Human Rights-Centered U.S, Foreign Policy](https://drive.google.com/file/d/1j1OAxPhOm6ma6o4Y5vCLnuhMwd33sq6z/view?usp=sharing), which provides blueprints for 
 policymakers to uphold HRF's recommendations.
 
-![HRF Nonpartisan Campaigns]()
+![HRF Nonpartisan Campaigns](/assets/img/HRF_campaigns.png)
 HRF Nonpartisan Campaigns
 
 In advocacy of asylum seekers, HRF believes that holding the US government
@@ -36,14 +36,7 @@ have outdated information regarding non-sitting judges, have conflicting or
 missing data within the website, or are generally not user friendly.
 
 During discussions with stakeholders and through diving into the project 
-itself, I have initial concerns. While HRF is nonpartisan and advocacy-based, 
-the open-source nature of the code makes this project vulnerable to being used 
-by partisan organizations to advocate for the removal of opposite 
-party-appointed judges. Use by third parties is not something that can be 
-controlled or even qualified. However, it must be named as a possibility.
-It is also apparent that while some technical users of the tool have the 
-skills to interpret or analyze patterns within data, others may not.  
-Someone should provide analysis along with the prediction and 
+itself, I have initial concerns. While HRF is nonpartisan and advocacy-based, the open-source nature of the code makes this project vulnerable to being used by partisan organizations to advocate for the removal of opposite party-appointed judges. Use by third parties is not something that can be controlled or even qualified. However, it must be named as a possibility.It is also apparent that while some technical users of the tool have the skills to interpret or analyze patterns within data, others may not.  Someone should provide analysis along with the prediction and 
 visualizations.  As a Data Science team, it is questionable if we have 
 the depth of domain knowledge to provide it or the time to acquire it 
 during the project.  Of consideration is how to incorporate something 
@@ -242,31 +235,18 @@ using [Linear Discriminant Analysis (LDA)](https://machinelearningmastery.com/li
 instead of KNN and K-Means.  Once there is access to a significant number 
 of asylum documents, I suggest considering a [multi-label text classification 
 model using Keras](https://stackabuse.com/python-for-nlp-multi-label-text-classification-with-keras/) 
-or [Convolutional Neural Network (CNN) using Tensor Flow(https://towardsdatascience.com/how-to-do-text-classification-using-tensorflow-word-embeddings-and-cnn-edae13b3e575). 
+or [Convolutional Neural Network (CNN) using Tensor Flow](https://towardsdatascience.com/how-to-do-text-classification-using-tensorflow-word-embeddings-and-cnn-edae13b3e575). 
 I also encourage the entire team to deepen their legal domain knowledge, 
 specifically in the area of immigration law, legal documentation, and 
 court systems.  
 
-A key aspect missing from our entire planning structure is the Alien Number.  
-With the AN found on every immigration document, all cases relating to a 
-single asylum seeker can be grouped.  Grouping allows insights gained from 
-tracking an individual’s progress through the entire immigration court 
-system and comparing their experience to outcomes of those from similar 
-circumstances.  However, the AN is a confidential number similar to the 
-social security number.  The AN is treated with the same security precautions 
-(shown only under Administrator user privileges and in hashed format under 
-other users).
+A key aspect missing from our entire planning structure is the Alien Number.  With the AN found on every immigration document, all cases relating to a single asylum seeker can be grouped.  Grouping allows insights gained from tracking an individual’s progress through the entire immigration court system and comparing their experience to outcomes of those from similar circumstances.  However, the AN is a confidential number similar to the social security number.  The AN is treated with the same security precautions (shown only under Administrator user privileges and in hashed format under other users).
 
-![Reflecting on the journey…](<iframe src="https://giphy.com/embed/3o7TKvVTlNBANWtOO4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/love-animation-design-3o7TKvVTlNBANWtOO4">via GIPHY</a></p>)
+<iframe src="https://giphy.com/embed/3o7TKvVTlNBANWtOO4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/love-animation-design-3o7TKvVTlNBANWtOO4">via GIPHY</a></p>
 Reflecting on the journey…
 
 Through interactions with stakeholders, I realize that stakeholder expectations 
 can expand rapidly, sometimes even beyond our opportunity as engineers to 
 understand the business problem and find solutions.  While asking questions 
 to clarify the business problem, our conversations would sometimes move 
-well beyond our current project’s scope.  Learning how to navigate discussions 
-with all stakeholders to garner the information for my Data Science team 
-needed to complete their production tasks while listening for explicit and 
-implied asks directly from stakeholders, then asking for clarification on 
-the implied asks, is the essential skill I acquired during this experience.  
-Practicing this newly acquired skill is my priority.  
+well beyond our current project’s scope.  Learning how to navigate discussions with all stakeholders to garner the information for my Data Science team needed to complete their production tasks while listening for explicit and implied asks directly from stakeholders, then asking for clarification on the implied asks, is the essential skill I acquired during this experience.  Practicing this newly acquired skill is my priority.  
